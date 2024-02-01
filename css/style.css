@@ -1,5 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 :root{
-    font-family: 'Poppins', sans-serif;
+    /* variabls declared for COLOURS */
+    --white-color: hsl(0,0%,100%);
+    --black-color: hsl(0, 0%, 0%);
+    
+    /* For Fonts */
+    --body-font: 'Poppins', sans-serif;
+    --h1-font-size: 1.75rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.813rem;
+
+    /* Font Weight */
+    --font-medium: 500;
 }
+
+/*=========== Base ===========*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, input, button{
+    font-size: var(--normal-font-size);
+    font-family: ;
+}
+
+/*=========== Login ===========*/
+
+/* Input focus move on label */
+
+/* Input focus move on label */
+
+/* =========== BreakPoints =========== */
+/* For medium devices */
