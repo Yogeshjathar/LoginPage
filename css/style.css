@@ -61,6 +61,134 @@ img{
     object-position: center;
 }
 
+.loginForm{
+    position: relative;
+    background-color: hsla(0, 0%, 10%, .1);
+    border: 2px solid var(--white-color);
+    margin-inline: 1.5rem;
+    padding: 2.5rem 1.5rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(8px);
+}
+
+.loginTitle{
+    text-align: center;
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 2rem;
+}
+
+.loginContent,
+.loginBox{
+    display: grid;
+}
+
+.loginContent{
+    row-gap: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.loginBox{
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+    column-gap: .75rem;
+    border-bottom: 2px solid var(--white-color);
+}
+
+.login_Icon,
+.login_Eye{
+    font-size: 1.25rem;
+}
+
+.login_Input{
+    width: 100%;
+    background: none;
+    padding-block: .8rem;
+    color: var(--white-color);
+    position: relative;
+    z-index: 1;
+}
+
+.login_Box_Input{
+   position: relative;
+}
+
+.login_Label{
+    position: absolute;
+    left: 0;
+    top: 13px;
+    font-weight: var(--font-medium);
+    transition: top .3s, font-size .3s;
+}
+
+.login_Eye{
+    position: absolute;
+    right: 0;
+    top: 18px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.loginBox:nth-child(2) input{
+    padding-right: 1.8rem;
+}
+
+.loginCheck,
+.login_Check_Group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loginCheck{
+    margin-bottom: 1.5rem;
+}
+
+.login_Check_Label,
+.login_Forgot,
+.login_Register{
+    font-size: var(--small-font-size);
+}
+
+.login_Check_Group{
+    column-gap: .5rem;
+}
+
+.login_Check_Input{
+    width: 16px;
+    height: 16px;
+}
+
+.login_Forgot{
+    color: var(--white-color);
+}
+
+.login_Forgot:hover{
+    text-decoration: underline;
+}
+
+.login_Button{
+    width: 100%;
+    padding: 2rem;
+    border-radius: .5rem;
+    background-color: var(--white-color);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.login_Register{
+    text-align: center;
+}
+
+.login_Register a{
+    color: var(--white-color);
+    font-weight: var(--font-medium);
+}
+
+.login_Register a:hover{
+    text-decoration: underline;
+}
 /* Input focus move on label */
 
 /* Input focus move on label */
