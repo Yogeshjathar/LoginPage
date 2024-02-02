@@ -169,7 +169,7 @@ img{
 
 .login_Button{
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: .5rem;
     background-color: var(--white-color);
     font-weight: var(--font-medium);
@@ -203,3 +203,16 @@ img{
 
 /* =========== BreakPoints =========== */
 /* For medium devices */
+@media screen and (min-width: 576px) {
+    .login{
+        justify-content: center;
+    }
+    .loginForm{
+        width: 432px;
+        padding: 4rem 3rem 3.5rem;
+        border-radius: 1.5rem;
+    }
+    .loginTitle{
+        font-size: 2rem;
+    }
+}
