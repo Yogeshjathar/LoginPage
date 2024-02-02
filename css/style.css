@@ -190,8 +190,16 @@ img{
     text-decoration: underline;
 }
 /* Input focus move on label */
+.login_Input:focus + .login_Label{
+    top: -12px;
+    font-size: var(--small-font-size);
+}
 
 /* Input focus move on label */
+.login_Input:not(:placeholder-shown).login_Input:not(:focus) + .login_Label{
+    top: -12px;
+    font-size: var(--small-font-size);
+}
 
 /* =========== BreakPoints =========== */
 /* For medium devices */
